@@ -1,0 +1,46 @@
+/* div{
+    background-color: aqua;
+    display: inline;
+}
+button{
+    display: block;
+} */
+#div1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+}
+
+#div2{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+    visibility: hidden;
+}
+
+#div3{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+    
+}
+
+#div4{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+
+    display: none;
+
+}
