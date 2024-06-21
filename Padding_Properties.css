@@ -1,0 +1,31 @@
+#div1{
+   
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid green;
+    padding-left: 25px;
+    padding-right: 25px;
+   
+}
+#div2{
+  
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+    border: 3px dotted white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    
+}
+#div3{
+   
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 237, 226);
+    border: 3px dashed rgb(4, 31, 35);
+    padding: 20px 15px 20px 15px ;
+    margin: 20px 15px 20px 15px;
+    
+}
