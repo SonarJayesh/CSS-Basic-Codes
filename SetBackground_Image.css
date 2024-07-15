@@ -1,0 +1,33 @@
+body{
+    background-image: url("Coding_image.jpg");
+    background-size: cover;
+}
+#box1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 3px,solid,black;
+    background-image: url("Tiger_image.jpg");
+    background-size: cover;
+}
+#box2{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 3px,dotted,black;
+    background-image: url("Beach_image.jpg");
+    background-size: cover;
+}
+#box3{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 3px,solid,black;
+    background-image: url("Coding_image.jpg");
+    background-size: cover;
+    background-position: -25px;
+
+}
