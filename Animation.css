@@ -1,0 +1,65 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid black;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-duration: 0.25;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-iteration-count: infinite;
+}
+
+#div2{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: relative;
+    top: 143px;
+    left: 400px;
+    animation-name: directionAnimate;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+    animation-direction: alternate;
+    animation-direction: reverse;
+    animation-direction: alternate-reverse;
+
+    animation:directionAnimate 5s linear 1s infinite alternate-reverse ;    /* ----> Animation Shorthand */
+
+}
+
+@keyframes colorAnimate{
+    from{
+        color: red;
+        background-color: aqua;
+    }
+    to{
+        background-color: red;
+    }
+}
+@keyframes directionAnimate{
+    0%{
+        background-color: aqua;
+        left: 90px;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        left: 600px;
+        background-color: green;
+        color: white;
+    }
+}
