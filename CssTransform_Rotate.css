@@ -1,0 +1,56 @@
+div{
+
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    border: 2px,solid,black;
+    position:relative;
+    top: 200px;
+    left: 100px;
+    display: inline-block;
+    
+}
+
+div:hover{
+    background-color: red;
+    color: white;
+}
+
+#box2:active{
+        background-color: green;
+        rotate: x 40deg;
+        rotate: y 50deg;
+        rotate: z 60deg;
+}
+
+#box3:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    background-color: green;
+    font-size: large;
+    font-style: italic;
+    rotate: x 60deg;
+}
+
+#box4:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    background-color: blue;
+    font-size: large;
+    font-style: italic;
+    transition-timing-function: steps(5);
+    transition-timing-function: ease-in;   
+    rotate: y 50deg;
+}
+
+#box5:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    background-color:brown;
+    font-size: large;
+    font-style:oblique;
+    transition-delay: 2s;
+
+    transition: all 2s ease-in-out 1s;                  /* ----> Transition shorthand */
+    rotate: z 45deg;
+}
