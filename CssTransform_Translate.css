@@ -1,0 +1,58 @@
+div{
+
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    border: 2px,solid,black;
+    position:relative;
+    top: 200px;
+    left: 100px;
+    display: inline-block;
+    
+}
+
+div:hover{
+    background-color: red;
+    color: white;
+   
+}
+
+#box2:active{
+        background-color: green;
+        transform: translate(-50px);
+} 
+
+#box3:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    background-color: green;
+    font-size: large;
+    font-style: italic;
+    transform: translateY(200px);
+  
+}
+
+#box4:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    background-color: blue;
+    font-size: large;
+    font-style: italic;
+    transition-timing-function: steps(5);
+    transition-timing-function: ease-in;   
+    transform: scale(2,1);
+    transform: translateY(-200px);
+
+}
+
+#box5:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    background-color:brown;
+    font-size: large;
+    font-style:oblique;
+    transition-delay: 2s;
+
+    transition: all 3s ease-in-out 2s;                  /* ----> Transition shorthand */
+    transform: translate(150px, 100px);
+}
